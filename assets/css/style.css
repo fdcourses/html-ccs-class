@@ -1,0 +1,52 @@
+  /* 
+          0123456789 - десятиричная система счисления
+          01 - двоичная ...
+
+
+          0123456789abcdef - шестнадцатиричная ...
+
+          RGB - 0..255
+        */
+        /*
+         color: 
+          #RRGGBB - хекс код (00-ff)
+          rgb(R, G, B) - функция для цвета (0-255)
+          rgba(R,G,B, A) - RGB + альфа канал (0-1) для прозрачности
+         */
+
+      /*
+        element
+        специфичность элемента - 0001
+      */
+      /* 
+        .class
+        специфичность класса - 0010
+      */
+
+      /*
+        #id
+        спецфифичность адишника - 0100
+      */
+
+     /*
+      специфичность инлайн/встроенных стилей - 1000
+      <p  style="color: green;"></p>
+     */
+
+     .article {
+      background-color: teal;
+    }
+
+    .article-heading {
+      font-size: 42px;
+      text-align: center;
+      text-transform: capitalize;
+    }
+
+    .article-text {
+     font-size: 24px;
+     line-height: 1.5em;
+     color: whitesmoke;
+     text-align: justify;
+    }
+
