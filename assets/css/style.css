@@ -1,19 +1,63 @@
 .main {
-  color: green;
-  border: 2px solid red;
+  /* наружные поля - margin */
+  /* margin-top: 50px; */
+  /* граница - border */
+
+
+  /* 
+  border-bottom-width: 25px;
+  border-bottom-style: dotted;
+  border-bottom-color: green; 
+  */
+
+  /* отсутпы - padding */
+  /* 
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+  padding-left: 80px; 
+  */
+
+  /* top | right | bottom | left */
+  padding: 20px 40px 60px 80px;
+  /* vertical | horizontal */
+  padding: 20px 40px;
+  /* top | horizontal | bottom */
+  padding: 15px 30px 40px;
+
+  /* контент */
+  /* width: 300px; */
+  /* height: ; */
+  /* свойство для переключения вычисления блочной модель */
+  box-sizing: border-box;
 }
 
-.main-heading {
-  font-size: 60px;
+.img {
+  width: 150px;
 }
 
-.main-text {
-  
+
+.div {
+  display: block;
+  font-size: 18px;
+  border: 5px solid red;
+  box-sizing: border-box;
+  width: 50%;
 }
 
-.main-text-2 {
+.div1 {
+  margin-bottom: -70px;
 }
 
-.link {
-  color: inherit;
+.div2 {
+  margin: 50px auto;
+}
+
+.div3 {
+  margin-top: 30px;
+}
+
+body {
+  margin: 0;
+  font-size: 0;
 }
